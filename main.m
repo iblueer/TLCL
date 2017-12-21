@@ -111,7 +111,7 @@ int main(int argc, const char * argv[]) {
         // 直接把它搞进md文件里去，听我的。
         NSData *data = [content dataUsingEncoding:NSUTF8StringEncoding];
         [fm createFileAtPath:fileTLCL contents:data attributes:nil];
-        // 以data的文件内容创建result.md
+        // 以data的文件内容创建TLCL.md
         NSLog(@"已成功导出Markdown文本文件/Users/Shared/book/TLCL.md");
     }
     return 0;
